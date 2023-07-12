@@ -71,6 +71,8 @@ header{
     display: flex;
     width: 1140px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-side{
@@ -79,9 +81,20 @@ header{
 .about-info ul{
     list-style: none;
     padding-top: 100px;
+    padding-left: 10px;
     
 }
 .about-info ul li{
-    margin-top: 20px;
+    margin-top: 30px;
     
+}
+.about-info ul li:first-child{
+    margin-top:0px;
+    
+}
+.right-side{
+    width: 50%;
+}
+.right-side hr{
+    width: 50px;
 }
