@@ -11,6 +11,9 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-family: 'Nunito Sans', sans-serif;
 }
+section{
+    margin-top: 100px;
+}
 
 /* Header styles */
 
@@ -72,4 +75,13 @@ header{
 
 .left-side{
     display: flex;
+}
+.about-info ul{
+    list-style: none;
+    padding-top: 100px;
+    
+}
+.about-info ul li{
+    margin-top: 20px;
+    
 }
