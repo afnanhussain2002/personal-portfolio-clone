@@ -1,0 +1,75 @@
+/* All Sheard Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Header styles */
+
+header{
+    background: url(images/Afnan-Hussain-header-bg.png) no-repeat;
+    background-size: cover;
+    /* background-color: #000000;
+    opacity: 0.49;  */
+}
+
+/* Navber styles */
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+.menu{
+    
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+/* heading part */
+
+.heading{
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+}
+
+.sub-heading{
+    font-size: 30px;
+}
+.header-titel{
+    font-size: 50px;
+}
+.skill-titel{
+    font-size: 40px;
+}
+
+
+/* about section */
+
+.about-section{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.left-side{
+    display: flex;
+}
